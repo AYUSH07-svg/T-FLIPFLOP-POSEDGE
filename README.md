@@ -38,6 +38,7 @@ From the above characteristic table, we can directly write the next state equati
 5. For different input combinations generate the timing diagram.
 
 **PROGRAM**
+```
 module t_ff_ (t, clk, rst, q);
 
   input t, clk, rst;
@@ -63,7 +64,7 @@ begin
   end
   
 endmodule
-
+```
 
 **RTL LOGIC FOR FLIPFLOPS**
 
